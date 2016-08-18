@@ -1,0 +1,63 @@
+source ~/Documents/workspace/tensorflow/bin/activate
+
+jupyter notebook
+
+
+cd ~/Documents/Python_projects/gittest/vagrant
+vagrant up
+
+vagrant ssh
+cd /vagrant
+cd projects/menus
+
+cd ~/Documents/Python_projects/gittest/fullstack/vagrant
+
+select then Cmd + [ or ] unindent/indent
+
+shift + tab
+
+finder: command+shift+G
+
+snapshot: command+shift+4
+
+shell terminal: exit
+
+/Users/arfu/Documents/workspace/tensorflow/lib/python2.7/site-packages/tensorflow
+
+deactivate
+
+command + right arrow
+
+找到某个文件后，直接点击（或者enter）是打开文件
+按command点击（或者command+enter）是打开相应的文件夹
+
+vim (vi):
+
+vim 123.txt
+
+i               Insert text before the current cursor position
+
+From insert mode to command mode	type Esc (escape key)
+
+:wq             Write file to disk and quit the editor
+:wq		Write the current file and quit.  Writing fails when
+		the file is read-only or the buffer does not have a
+		name.  Quitting fails when the last file in the
+		argument list has not been edited.
+
+:q 直接退出，不保存
+
+info窗口中的基本命令：
+
+q 退出
+
+man 调用的是vi
+
+
+lsof -i :80
+lsof -i :8000
+lsof -i :8888
+lsof -i tcp:8888
+
+netstat -an
+
